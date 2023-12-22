@@ -6,7 +6,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "topbar_opening_button"
-			position = { x = -125 y = 4 }
+			position = { x = -131 y = 62 }
 			quadTextureSprite = "GFX_help_button"
 			Orientation = "UPPER_RIGHT"
 			scale = 1

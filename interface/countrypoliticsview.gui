@@ -274,15 +274,6 @@ guiTypes = {
 			#}
 
 			instantTextboxType = {
-				name = "ideology"
-				position = { x = 362 y = -113 }
-				font = "aldrich_20_outline"
-				text = "ideology"
-				maxWidth = 160
-				maxHeight = 20
-			}
-
-			instantTextboxType = {
 				name = "elections"
 				position = { x = -5000 y = 45 }
 				font = "Bomb_16"
@@ -608,12 +599,6 @@ guiTypes = {
 			scale = .90
 		}
 
-		iconType = {
-			name = "manage_occupied_button_underlay"
-			position = { x = 37 y = 483 }
-			spriteType = "GFX_tno_button_148x34_underlay"
-		}
-
 		buttonType = {
 			name = "manage_occupied_button"
 			position = { x = 42 y = 489 }
@@ -677,11 +662,7 @@ guiTypes = {
 			}
 		}
 		
-		iconType = {
-			name = "show_exiles_collaborations_button_underlay"
-			position = { x = 202 y = 483 }
-			spriteType = "GFX_tno_button_148x34_underlay"
-		}
+		
 		
 		buttonType = {
 			name = "show_exiles_collaborations_button"
