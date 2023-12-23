@@ -4,20 +4,9 @@ guiTypes = {
 		position = { x=274 y=-36 }
 		Orientation = UPPER_RIGHT
 		origo = UPPER_RIGHT
-		containerWindowType = {
-			name = "ledger_background"
-			size = { width = 95 height = 95 }
-			position = { x = -55 y = -379 }
-			orientation = lower_right
-
-			background = {
-				name = "Background"
-				quadTextureSprite = "GFX_tiled_window_thin_border2"
-			}
-		}
 		buttonType = {
 			name = "ledger_open_btn"
-			position = { x = -2 y = 0 }
+			position = { x = -2 y = -13 }
 			quadTextureSprite = "GFX_ledger_open_button"
 			pdx_tooltip = "LEDGER_OPEN"
 		}

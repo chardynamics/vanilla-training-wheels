@@ -303,6 +303,61 @@ guiTypes = {
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
 			}
+
+			# Putting this here because it's throwing errors
+			containerWindowType = {
+				name = "power_balance_button"
+				position = { x = 347 y = 103 }
+				clipping = no
+
+				buttonType = {
+					name = "show_power_balance"
+					position = { x = 0 y = 5 }
+					quadTextureSprite = "GFX_tno_button_148x34"
+					buttonFont = "Bomb_16"
+					Orientation = "UPPER_LEFT"
+					text = "BOP_BUTTON"
+				}
+				
+				iconType = {
+					name = "show_power_balance_glow"
+					position = { x = 9000 y = 9000 }
+					quadTextureSprite = "GFX_bop_glow_effect"
+					alwaystransparent = yes
+				}
+
+				instantTextboxType = {
+					name = "power_balance_percentage"
+					format = center
+					position = { x = 9000 y = 9000 }
+					font = "hoi_16mbs"
+					text = "90%"
+					fixedsize = yes
+					maxWidth = 100				
+					maxHeight = 20
+					alwaystransparent = yes
+				}	
+				
+				instantTextboxType = {
+					name = "power_balance_levels"
+					format = center
+					position = { x = 9000 y = 9000 }
+					font = "hoi_16mbs"
+					text = "3/5"
+					fixedsize = yes
+					maxWidth = 100				
+					maxHeight = 20
+					alwaystransparent = yes
+				}	
+				
+				iconType = {
+					name = "power_balance_ICON"
+					position = { x = 9000 y = 9000 }
+					quadTextureSprite = "GFX_placeholder_bordered"
+					alwaystransparent = yes				
+					scale = 0.55
+				}
+			}
 		}
 
 		containerWindowType = {

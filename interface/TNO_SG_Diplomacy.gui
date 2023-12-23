@@ -22,7 +22,6 @@ guiTypes = {
 		
 		iconType = {
 			name = "diplo_flag_frame_no_LaR"
-			spriteType = "GFX_diplo_flag_frame_no_LaR"
 			position = { x = 13 y = 24 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
@@ -35,7 +34,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "ideology"
-			position = { x = 251 y = 125 }
+			position = { x = 251 y = 132 }
 			font = "aldrich_20_outline"
 			text = [GetSubIdeologyLoc]
 			alwaystransparent = yes
@@ -48,7 +47,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "TNO_SG_EconInfo_Container"
-		position = { x = 17 y = 372 }
+		position = { x = 17 y = 352 }
 		size = { width = 255 height = 72 }
 
 		iconType = {

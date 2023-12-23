@@ -4,20 +4,6 @@ guiTypes = {
 		name = "technology_idea_entry"
 		size = { width = 64 height = 64 }
 		clipping = no
-			
-		background = {
-			name = "Background"		
-			spriteType = "GFX_tech_idea_bg"
-		}
-		
-		iconType = {
-			name = "idea_traits"
-			position = { x = 43 y = 46 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			frame = 1
-		}
 	}
 
 	containerWindowType = {

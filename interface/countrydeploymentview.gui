@@ -395,7 +395,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "deploy_entry"
 		position = { x = 0 y = 0}	
-		size = { width = 493 height = 69 }
+		size = { width = 493 height = 57 }
 
 		background = {
 			name = "Background"		
