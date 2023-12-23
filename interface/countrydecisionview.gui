@@ -244,10 +244,6 @@ guiTypes = {
 		}
 	}
 
-	######################
-	# Category container #
-	######################
-
 	containerWindowType = {
 		name = "event_header"
 		position = {x=-11 y=0}
@@ -257,15 +253,54 @@ guiTypes = {
 
 		iconType = {
 			name = "icon_header_bg"
-			position = {x=0 y=-50}
-			spriteType = "GFX_event_report_top_win"
-			scale = 0.9
+			position = {x=0 y=0}
+			spriteType = "GFX_event_header_bg"
+		}
+		
+		instantTextboxType = {
+			name = "name_text"
+			position = { x = -999 y = -999}
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = { x = 0 y = 0 }
+			text = "DECISIONSVIEW_EVENT_HEADER"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+		
+		#Grouped text and checkbox for easier positioning
+		containerWindowType = {
+			name = "minor_event_checkbox_window"
+			position = {x=400 y=35}
+			Orientation = upper_right
+
+
+			checkBoxType = {
+				name = "popup_minor_events_checkbox"
+				position = { x = -11 y = -3 }
+				quadTextureSprite = "GFX_generic_checkbox3"
+				clicksound = decisions_ui_button
+				pdx_tooltip = "MINOR_EVENT_POPUP_CHECKBOX_TOOLTIP"
+			}
+
+			instantTextboxType = {
+				name = "minor_events_popup_text"
+				position = { x = 15 y = 0 }
+				textureFile = ""
+				font = "aldrich_16_outline"
+				borderSize = { x = 0 y = 0 }
+				text = "POPUP_MINOR_EVENTS"
+				maxWidth = 110
+				maxHeight = 10
+				format = left
+			}
 		}
 
 		#Grouped text and checkbox for easier positioning
 		containerWindowType = {
 			name = "event_checkbox_window"
-			position = {x=218 y=32}
+			position = {x=218 y=28}
 			Orientation = upper_right
 
 
@@ -278,9 +313,9 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "events_popup_text"
-				position = { x = 20 y = -4 }
+				position = { x = 15 y = -4 }
 				textureFile = ""
-				font = "aldrich_18_outline"
+				font = "aldrich_16_outline"
 				borderSize = { x = 0 y = 0 }
 				text = "POPUP_EVENTS"
 				maxWidth = 130
@@ -292,7 +327,7 @@ guiTypes = {
 		#Grouped text and checkbox for easier positioning
 		containerWindowType = {
 			name = "news_checkbox_window"
-			position = {x=218 y=54}
+			position = {x=218 y=50}
 			Orientation = upper_right
 
 
@@ -305,9 +340,9 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "news_popup_text"
-				position = { x = 20 y = -4 }
+				position = { x = 15 y = -4 }
 				textureFile = ""
-				font = "aldrich_18_outline"
+				font = "aldrich_16_outline"
 				borderSize = { x = 0 y = 0 }
 				text = "POPUP_NEWS"
 				maxWidth = 110

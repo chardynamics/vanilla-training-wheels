@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "TNO_Country_Info_Screen_Topbar_Opener"
-		position = { x = 200 y = 38 }
+		position = { x = -4 y = -1 }
 		size = { width = 100%% height = 100%% }
 
 		buttonType = {

@@ -4,6 +4,18 @@ guiTypes = {
 	#	name = "MapmodesInterface_marker_offset"
 	#	position = { x=41 y=0 }
 	#}
+	
+	containerWindowType = {
+		name = "ledger_background_vanilla"
+		size = { width = 95 height = 95 }
+		position = { x = -45 y = 0 }
+		orientation = LOWER_RIGHT
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+	}
 
 	containerWindowType = {
 		name = "MapmodesInterface_Ingame"

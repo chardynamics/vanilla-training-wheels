@@ -127,12 +127,12 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_transparent"
 			}
-
+			
 			gridboxtype = {
 				name = "templates_grid"
-				position = { x = 10 y = 0 }
-				size = { width = 280 height = 100%% }
-				slotsize = { width = 280 height = 72 }
+				position = { x = 4 y = 0 }
+				size = { width = 355 height = 100%% }
+				slotsize = { width = 355 height = 1 }
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}
