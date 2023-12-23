@@ -6,5 +6,5 @@ tags={
 	"Graphics"
 }
 dependencies = { "The New Order: Last Days of Europe" }
-name="The New Order: Vanilla Eyes"
-supported_version="1.13.4"
+name="The New Order: Vanilla Training Wheels"
+supported_version="1.13.6"
