@@ -91,7 +91,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "TNO_SG_Diplomacy_self_container"
-		position = { x = 280 y = 385 }
+		position = { x = 280 y = 360 }
 		
 		iconType = {
 			name = "TNO_Diplomacy_self_animation"
