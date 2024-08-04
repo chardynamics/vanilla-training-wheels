@@ -329,7 +329,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "TNO_SG_politics_bop_cover"
-		position = { x = 367 y = 483 }
+		position = { x = 373 y = 488 }
 		buttonType = {
 			name = "cover_button"
 			quadTextureSprite = "GFX_tno_button_148x34"

@@ -63,7 +63,7 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "ledger_background_backgorund"
-			position = { x=274 y=-45 }
+			position = { x=280 y=-45 }
 			Orientation = UPPER_RIGHT
 			origo = UPPER_RIGHT
 			containerWindowType = {

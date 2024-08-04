@@ -272,7 +272,7 @@ guiTypes = {
 		#Grouped text and checkbox for easier positioning
 		containerWindowType = {
 			name = "minor_event_checkbox_window"
-			position = {x=400 y=35}
+			position = {x=375 y=50}
 			Orientation = upper_right
 
 
@@ -300,7 +300,7 @@ guiTypes = {
 		#Grouped text and checkbox for easier positioning
 		containerWindowType = {
 			name = "event_checkbox_window"
-			position = {x=218 y=28}
+			position = {x=218 y=40}
 			Orientation = upper_right
 
 
@@ -327,7 +327,7 @@ guiTypes = {
 		#Grouped text and checkbox for easier positioning
 		containerWindowType = {
 			name = "news_checkbox_window"
-			position = {x=218 y=50}
+			position = {x=218 y=60}
 			Orientation = upper_right
 
 
