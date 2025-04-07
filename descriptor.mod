@@ -1,4 +1,4 @@
-version="1.0"
+version="1.1"
 replace_path="gfx/interface"
 picture="thumbnail.png"
 tags={
@@ -10,4 +10,4 @@ dependencies={
 	"The New Order: Last Days of Europe"
 }
 name="The New Order: Vanilla Training Wheels"
-supported_version="1.14.7"
+supported_version="1.16.3"
