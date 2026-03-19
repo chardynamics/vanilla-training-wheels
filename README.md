@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3121138290">
-    <img src="[https://gitlab.com/chardynamics/vanilla-training-wheels/-/raw/main/thumbnail.png](https://raw.githubusercontent.com/chardynamics/vanilla-training-wheels/f83c2c75fc87674355bf0ab124095ab037fa44f2/thumbnail.png)" alt="Logo" width="350" height="350">
+    <img src="https://raw.githubusercontent.com/chardynamics/vanilla-training-wheels/f83c2c75fc87674355bf0ab124095ab037fa44f2/thumbnail.png" alt="Logo" width="350" height="350">
   </a>
 
 <h3 align="center">The New Order: Vanilla Training Wheels</h3>
