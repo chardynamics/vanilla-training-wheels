@@ -401,7 +401,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_unit_level"
 		texturefile = "gfx/interface/unit_level.dds"
-		noOfFrames = 5
+		noOfFrames = 13
 	}
 	
 	SpriteType = {
@@ -932,4 +932,5 @@ spriteTypes = {
 		name = "GFX_obsolete_template_overlay"
 		textureFile = "gfx/interface/obsolete_template_overlay.dds"
 	}
+
 }
