@@ -10,4 +10,4 @@ dependencies={
 	"The New Order: Last Days of Europe"
 }
 name="The New Order: Vanilla Training Wheels"
-supported_version="1.19.0"
+supported_version="1.18.*"
