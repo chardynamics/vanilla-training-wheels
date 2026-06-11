@@ -326,68 +326,194 @@ guiTypes = {
 			position = { x=125 y=54 }
 		}
 
-		iconType = {
-			name = "leader_stat_attack_bg"
-			spriteType = "GFX_trait_attack"
-			position = { x=310 y=11 }
-		}
+		containerWindowType = {
+			name = "skill_container"
 
-		instantTextboxType = {
-			name = "leader_stat_attack"
-			position = {x=309 y=29}
-			font = "aldrich_24_outline"
-			maxWidth = 30
-			maxHeight = 23
-			format = center
-			text = "7"
-		}
+			iconType = {
+				name = "leader_stat_attack_bg"
+				spriteType = "GFX_trait_attack"
+				position = { x=310 y=11 }
+			}
 
-		iconType = {
-			name = "leader_stat_defense_bg"
-			spriteType = "GFX_trait_defense"
-			position = { x=337 y=10s }
-		}
+			instantTextboxType = {
+				name = "leader_stat_attack"
+				position = {x=309 y=29}
+				font = "aldrich_24_outline"
+				maxWidth = 30
+				maxHeight = 23
+				format = center
+				text = "7"
+			}
 
-		instantTextboxType = {
-			name = "leader_stat_defense"
-			position = {x=336 y=29}
-			font = "aldrich_24_outline"
-			maxWidth = 30
-			maxHeight = 23
-			format = center
-			text = "8"
-		}
+			iconType = {
+				name = "leader_stat_defense_bg"
+				spriteType = "GFX_trait_defense"
+				position = { x=337 y=10s }
+			}
 
-		iconType = {
-			name = "leader_stat_planning_bg"
-			spriteType = "GFX_trait_planning"
-			position = { x=364 y=11 }
-		}
+			instantTextboxType = {
+				name = "leader_stat_defense"
+				position = {x=336 y=29}
+				font = "aldrich_24_outline"
+				maxWidth = 30
+				maxHeight = 23
+				format = center
+				text = "8"
+			}
 
-		instantTextboxType = {
-			name = "leader_stat_planning"
-			position = {x=363 y=29}
-			font = "aldrich_24_outline"
-			maxWidth = 30
-			maxHeight = 23
-			format = center
-			text = "9"
-		}
+			iconType = {
+				name = "leader_stat_planning_bg"
+				spriteType = "GFX_trait_planning"
+				position = { x=364 y=11 }
+			}
 
-		iconType = {
-			name = "leader_stat_logistics_bg"
-			spriteType = "GFX_trait_logistics"
-			position = { x=390 y=11 }
-		}
+			instantTextboxType = {
+				name = "leader_stat_planning"
+				position = {x=363 y=29}
+				font = "aldrich_24_outline"
+				maxWidth = 30
+				maxHeight = 23
+				format = center
+				text = "9"
+			}
 
-		instantTextboxType = {
-			name = "leader_stat_logistics"
-			position = {x=389 y=29}
-			font = "aldrich_24_outline"
-			maxWidth = 30
-			maxHeight = 23
-			format = center
-			text = "10"
+			iconType = {
+				name = "leader_stat_logistics_bg"
+				spriteType = "GFX_trait_logistics"
+				position = { x=390 y=11 }
+			}
+
+			instantTextboxType = {
+				name = "leader_stat_logistics"
+				position = {x=389 y=29}
+				font = "aldrich_24_outline"
+				maxWidth = 30
+				maxHeight = 23
+				format = center
+				text = "10"
+			}
+		}
+		buttonType = {
+			name = "country_flag"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x = 445 y = 50 }
+		}
+		
+		containerWindowType = {
+			name = "faction_commander"
+			position = { x = 308 y = 4 }
+			size = { width= 200 height=52 }
+			
+			containerWindowType = {
+				name = "mastery"
+				position = {x=8 y=12}
+
+				instantTextBoxType = {
+						name = "mastery_value"
+						font = "hoi_16mbs"
+						position = { x=0 y=18 }
+						maxWidth = 40
+						maxHeight = 23
+						format = center
+						fixedsize = yes
+						text = "0%"
+					}
+
+					iconType = {
+						name = "mastery_icon"
+						spriteType = "GFX_doctrine_mastery"
+						position = { x=9 y=0 }
+					}
+				}	
+			
+		containerWindowType = {
+				name = "supply_divisions"
+				position = {x=43 y=12}
+
+					instantTextBoxType = {
+						name = "supply_value"
+						font = "hoi_16mbs"
+						position = { x=0 y=18 }
+						maxWidth = 40
+						maxHeight = 23
+						format = center
+						fixedsize = yes
+						text = "0"
+					}
+
+					iconType = {
+						name = "supply_icon"
+						spriteType = "GFX_MODIFIER_SUPPLY_CONSUMPTION_FACTOR"
+						position = { x=5 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "supply_navy"
+					position = {x=78 y=12}
+
+					instantTextBoxType = {
+						name = "supply_navy_value"
+						font = "hoi_16mbs"
+						position = { x=0 y=18 }
+						maxWidth = 40
+						maxHeight = 23
+						format = center
+						fixedsize = yes
+						text = "0"
+					}
+
+					iconType = {
+						name = "supply_navy_icon"
+						spriteType = "GFX_MODIFIER_NAVAL_SUPPLY_CONSUMPTION_FACTOR"
+						position = { x=5 y=0 }
+					}
+				}	
+				
+				containerWindowType = {
+				name = "countries"
+				position = {x=113 y=12}
+
+				instantTextBoxType = {
+					name = "assigned_countries"
+					font = "hoi_16mbs"
+					position = { x=0 y=18 }
+					maxWidth = 40
+					maxHeight = 23
+					format = center
+					fixedsize = yes
+					text = "0/0"
+				}
+
+				iconType = {
+					name = "assigned_countries_icon"
+					spriteType = "GFX_assigned_countries_icon"
+					position = { x=5 y=-8 }
+				}
+			}
+
+			containerWindowType = {
+				name = "regions"
+				position = {x=148 y=12}
+
+				instantTextBoxType = {
+					name = "assigned_regions"
+					font = "hoi_16mbs"
+					position = { x=0 y=18 }
+					maxWidth = 40
+					maxHeight = 23
+					format = center
+					fixedsize = yes
+					text = "0/0"
+				}
+
+				iconType = {
+					name = "assigned_regions_icon"
+					spriteType = "GFX_icon_occupied_territories"
+					position = { x=5 y=-8 }
+				}								
+			}	
+			
 		}
 	}
 

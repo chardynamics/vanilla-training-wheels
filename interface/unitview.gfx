@@ -933,4 +933,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/obsolete_template_overlay.dds"
 	}
 
+	spriteType = {
+		name = "GFX_sunk_ships_button_crt"
+		textureFile = "gfx/interface/sunk_ships_button.dds"
+	}
 }

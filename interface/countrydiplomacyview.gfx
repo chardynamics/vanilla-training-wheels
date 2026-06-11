@@ -727,4 +727,12 @@ spriteTypes = {
 		name = "GFX_diplo_IntAlign_Bar_Tooltip"
 		textureFile = "gfx/interface/diploview/diplo_progressbar_empty.dds"
 	}
+
+	
+
+	spriteType = {
+		name = "GFX_tab_really_large"
+		textureFile = "gfx/interface/tab_really_large.dds"
+		noOfFrames = 2
+	}
 }

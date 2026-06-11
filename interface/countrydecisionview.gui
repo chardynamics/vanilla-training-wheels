@@ -353,6 +353,176 @@ guiTypes = {
 	}
 
 	containerWindowType = {
+		name = "News_Button_GUI"
+		position = {x= 458 y= -6 }
+		Orientation = CENTER
+
+		buttonType = {
+			name = "popup_news_button"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_generic_newspaper"
+			clicksound = tno_page_flip
+			pdx_tooltip = "News_Button_tt"
+			pdx_tooltip_delayed = "News_Button_delayed_tt"
+		}
+		
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x = -20 y = -25 }
+			scale = 0.5
+		}
+
+	}
+
+		
+	containerWindowType = {
+		name = "News_Region_Container"
+		position = { x = 544 y = 39 }
+		size = { width = 330 height = 244 }
+
+		background = {
+			name = "news_region_background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		buttonType = { ### hidden 
+			name = "News_closebutton"
+			position = { x = 34 y = 34 }
+       		spriteType = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			clicksound = tno_page_flip
+			scale = 0.1
+		}	
+
+		buttonType = {
+			name = "News_Europe_Checkbox"
+			position = { x = 12 y = 12 }
+			quadTextureSprite = "GFX_generic_checkbox"
+			clicksound = decisions_ui_button
+			frame = 2
+			pdx_tooltip = "Europe_Checkbox_tt"
+		}
+
+		buttonType = {
+			name = "News_Asia_Checkbox"
+			position = { x = 12 y = 50 }
+			quadTextureSprite = "GFX_generic_checkbox"
+			clicksound = decisions_ui_button
+			frame = 2
+			pdx_tooltip = "Asia_Checkbox_tt"
+		}
+
+		buttonType = {
+			name = "News_America_Checkbox"
+			position = { x = 12 y = 88 }
+			quadTextureSprite = "GFX_generic_checkbox"
+			clicksound = decisions_ui_button
+			frame = 2
+			pdx_tooltip = "America_Checkbox_tt"
+		}
+
+		buttonType = {
+			name = "News_Africa_Checkbox"
+			position = { x = 12 y = 126 }
+			quadTextureSprite = "GFX_generic_checkbox"
+			clicksound = decisions_ui_button
+			frame = 2
+			pdx_tooltip = "Africa_Checkbox_tt"
+		}
+
+		buttonType = {
+			name = "News_Pacific_Checkbox"
+			position = { x = 12 y = 164 }
+			quadTextureSprite = "GFX_generic_checkbox"
+			clicksound = decisions_ui_button
+			frame = 2
+			pdx_tooltip = "Oceania_Checkbox_tt"
+		}
+
+		buttonType = {
+			name = "News_Antarctica_Checkbox"
+			position = { x = 12 y = 202 }
+			quadTextureSprite = "GFX_generic_checkbox"
+			clicksound = decisions_ui_button
+			frame = 2
+			pdx_tooltip = "Antarctica_Checkbox_tt"
+		}
+
+		instantTextboxType = {
+			name = "News_Event_Europe"
+			position = { x = 50 y = 19 }
+			textureFile = ""
+			font = "aldrich_16_outline"
+			borderSize = { x = 0 y = 0 }
+			text = "Receive_News_Europe"
+			maxWidth = 500
+			maxHeight = 10
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "News_Event_Asia"
+			position = { x = 50 y = 57 }
+			textureFile = ""
+			font = "aldrich_16_outline"
+			borderSize = { x = 0 y = 0 }
+			text = "Receive_News_Asia"
+			maxWidth = 500
+			maxHeight = 10
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "News_Event_America"
+			position = { x = 50 y = 95 }
+			textureFile = ""
+			font = "aldrich_16_outline"
+			borderSize = { x = 0 y = 0 }
+			text = "Receive_News_Americas"
+			maxWidth = 500
+			maxHeight = 10
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "News_Event_Africa"
+			position = { x = 50 y = 133 }
+			textureFile = ""
+			font = "aldrich_16_outline"
+			borderSize = { x = 0 y = 0 }
+			text = "Receive_News_Africa"
+			maxWidth = 500
+			maxHeight = 10
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "News_Event_Pacific"
+			position = { x = 50 y = 171 }
+			textureFile = ""
+			font = "aldrich_16_outline"
+			borderSize = { x = 0 y = 0 }
+			text = "Receive_News_Oceania"
+			maxWidth = 500
+			maxHeight = 10
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "News_Event_Antarctica"
+			position = { x = 50 y = 209 }
+			textureFile = ""
+			font = "aldrich_16_outline"
+			borderSize = { x = 0 y = 0 }
+			text = "Receive_News_Antarctica"
+			maxWidth = 500
+			maxHeight = 10
+			format = left
+		}
+	}
+
+	containerWindowType = {
 		name = "category_end"
 		position = {x=0 y=0}
 		Orientation = upper_left
@@ -468,6 +638,20 @@ guiTypes = {
 			format = left
 			fixedsize = yes
 			vertical_alignment = center
+		}
+
+		iconType = {
+			name = "target_flag"	
+			position = { x= 32 y = 17 }			
+			quadTextureSprite = "GFX_flag_small2_not_masked"
+			scale = 0.5
+		}
+		iconType = {
+			name = "target_flag_frame"
+			quadTextureSprite = "GFX_small_flag_frame_thin2"
+			position = { x= 30 y = 15 }
+			alwaystransparent = yes
+			scale = 0.5
 		}
 
 		instantTextboxType = {
