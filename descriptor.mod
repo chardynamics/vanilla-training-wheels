@@ -10,4 +10,5 @@ dependencies={
 	"The New Order: Last Days of Europe"
 }
 name="The New Order: Vanilla Training Wheels"
-supported_version="1.18.*"
+supported_version="1.19.*"
+remote_file_id="3121138290"
